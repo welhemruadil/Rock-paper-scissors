@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="stylerps.css">
+</head>
+<body>
+    
+    <section class="game">
+        
+        <button id="modalBtn" class="button">Rules</button>
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <img class="rule" src="./rules.png" alt="">
+        </div>
+    </div>
+       
+        <!-- <button id="restart" >Restart Game</button> -->
+        <link href="Lets Go">
+        <div class="score">
+            <div class="player-score">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+        
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Rock Paper Scissors</h1>
+            <button>Lets Go!</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">'Choose an option'</h2>
+            <div class="hands">
+                <img class="player-hand" src="./asset/rock.png" alt="">
+                <img class="computer-hand" src="./asset/rock.png" alt="">
+            </div>
+            <div class="options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+            <div id="result"></div>
+                <h2>History</h2>
+                <ul id="history"></ul>
+            </div>
+
+            
+    </section>
+
+
+    <script src="index8.js"></script>
+</body>
+</html>
